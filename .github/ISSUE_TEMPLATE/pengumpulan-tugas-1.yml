@@ -1,0 +1,87 @@
+name: "Pengumpulan Tugas 1 (Digital Marketing)"
+description: "Kumpulkan Tugas 1 — 1 Brand Nyata, 4 Pelajaran Kasus (Domino’s, Airbnb, NerdWallet, Sephora)"
+title: "[Tugas 1] NIM - Nama Lengkap"
+labels: ["tugas-1", "pengumpulan"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Pengumpulan Tugas 1 — Digital Marketing (3 SKS)
+        Isi data berikut dengan lengkap. Lampirkan file PDF/DOCX (drag & drop) atau tautan file di bagian lampiran.
+        **Catatan:** repo ini publik — hindari data pribadi sensitif selain yang diminta.
+  - type: input
+    id: nama
+    attributes:
+      label: Nama Lengkap
+      placeholder: "Contoh: Budi Santoso"
+    validations:
+      required: true
+  - type: input
+    id: nim
+    attributes:
+      label: NIM
+      placeholder: "Contoh: 23012345"
+    validations:
+      required: true
+  - type: input
+    id: kelas
+    attributes:
+      label: Kelas
+      placeholder: "Contoh: A / 5A"
+    validations:
+      required: true
+  - type: input
+    id: brand
+    attributes:
+      label: Brand/UMKM yang dipilih
+      description: "Nama brand, produk/jasa, lokasi/kanal, target, peran Anda (pemilik/pengelola/pelanggan/pengamat)"
+      placeholder: "Contoh: Kopi Sudut (kedai kopi), Medan, target mahasiswa, peran: pemilik"
+    validations:
+      required: true
+  - type: textarea
+    id: jawaban_a
+    attributes:
+      label: "A. Strategi & rencana (Domino’s, P1–2)"
+      description: "Pelajaran Domino’s; baseline; Objective + KPI (dari→ke→periode); POEM (Owned/Earned/Paid)"
+      placeholder: "Tulis jawaban poin A..."
+    validations:
+      required: true
+  - type: textarea
+    id: jawaban_b
+    attributes:
+      label: "B. Audiens & posisi brand (Airbnb, P3–4)"
+      description: "Pelajaran Airbnb; persona + JTBD + 1 bukti pengamatan; positioning statement"
+      placeholder: "Tulis jawaban poin B..."
+    validations:
+      required: true
+  - type: textarea
+    id: jawaban_c
+    attributes:
+      label: "C. Konten & kepercayaan/temu (NerdWallet, P5–6)"
+      description: "Pelajaran NerdWallet; ide konten (judul+format+funnel+pertanyaan/kata kunci); 2 sinyal E-E-A-T/AEO-GEO"
+      placeholder: "Tulis jawaban poin C..."
+    validations:
+      required: true
+  - type: textarea
+    id: jawaban_d
+    attributes:
+      label: "D. Kanal, metrik & etika (Sephora, P7+)"
+      description: "Pelajaran Sephora; kanal+taktik+tujuan+metrik & cara ukur; guardrail (prinsip/aturan & penerapan)"
+      placeholder: "Tulis jawaban poin D..."
+    validations:
+      required: true
+  - type: textarea
+    id: lampiran
+    attributes:
+      label: "Lampiran / Tautan File Tugas"
+      description: "Lampirkan PDF/DOCX (drag & drop di sini) atau tempel tautan (Google Drive, pastikan akses terbuka untuk dosen). Nama file: NIM_Nama_Tugas1-DM.pdf"
+      placeholder: "Tempel tautan atau drag & drop file di sini..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: pernyataan
+    attributes:
+      label: Pernyataan
+      options:
+        - label: "Saya menyatakan tugas ini dikerjakan sendiri dan data brand yang dicantumkan benar sesuai pengamatan/pengetahuan saya."
+          required: true
