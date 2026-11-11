@@ -1,5 +1,5 @@
 name: "Pengumpulan Tugas 1 (Digital Marketing)"
-description: "Kumpulkan Tugas 1 — 1 Brand Nyata, 4 Pelajaran Kasus (Domino’s, Airbnb, NerdWallet, Sephora)"
+description: "Kumpulkan Tugas 1 — Belajar dari 4 Kasus Nyata (Domino’s, Airbnb, NerdWallet, Sephora)"
 title: "[Tugas 1] NIM - Nama Lengkap"
 labels: ["tugas-1", "pengumpulan"]
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ## Pengumpulan Tugas 1 — Digital Marketing (3 SKS)
-        Isi data berikut dengan lengkap. Lampirkan file PDF/DOCX (drag & drop) atau tautan file di bagian lampiran.
+        Tugas pilihan satu brand (nyata/UMKM sendiri dianjurkan, atau fiktif realistis). Isi data berikut, kaitkan tiap bagian dengan pelajaran kasus, lalu lampirkan PDF/DOCX (drag & drop) atau tautan file.
         **Catatan:** repo ini publik — hindari data pribadi sensitif selain yang diminta.
   - type: input
     id: nama
