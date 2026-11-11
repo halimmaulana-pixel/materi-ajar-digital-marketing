@@ -1,0 +1,104 @@
+topic: Isi Mata Kuliah Digital Marketing — Modul, Sumber Buku Ajar/Diklat, dan Format Materi di Era AI (2022–2026)
+
+fields:
+
+  Informasi Modul:
+    - name: module_name
+      description: Nama modul/bab dalam mata kuliah
+      detail_level: brief
+    - name: module_description
+      description: Penjelasan isi modul (3-5 kalimat), versi final untuk RPS
+      detail_level: moderate
+    - name: duration_weeks
+      description: Durasi (minggu) jika masuk RPS 14-16 pertemuan
+      detail_level: brief
+    - name: core_concepts
+      description: Konsep kunci yang harus dikuasai mahasiswa
+      detail_level: moderate
+    - name: learning_outcomes
+      description: Capaian pembelajaran modul dalam taksonomi Bloom (C1-C6)
+      detail_level: moderate
+
+  Frameworks & KPI:
+    - name: frameworks_models
+      description: Framework/model utama (mis. SOSTAC, RACE, funnel, AIDA, StoryBrand, growth loop, E-E-A-T)
+      detail_level: detailed
+    - name: key_metrics_kpi
+      description: Metrik & KPI kanal (ROAS, CTR, CVR, CPC, CPM, reach, engagement rate, bounce rate, LTV, CAC)
+      detail_level: moderate
+    - name: evaluation_metrics
+      description: Metrik evaluasi model/eksperimen (signifikansi A/B test, lift, confidence interval)
+      detail_level: moderate
+    - name: pitfalls_limitations
+      description: Keterbatasan & jebakan umum (platform dependency, attribution bias, data sampling, over-reliance pada van metrics)
+      detail_level: moderate
+
+  Tools & Praktikum:
+    - name: tools_stack
+      description: Tools nyata beserta nama fungsi/panel (Meta Ads Manager, TikTok Ads Manager, Google Ads, GA4, Google Tag Manager, Search Console, Canva, Mailchimp/HubSpot free tier, Meta Business Suite)
+      detail_level: moderate
+    - name: commercial_platforms
+      description: Platform komersial untuk demo/briefing (HubSpot, Semrush/Ahrefs, Hootsuite/Sprout Social, Meltwater, Salesforce Marketing Cloud)
+      detail_level: brief
+    - name: tools_access_cost
+      description: Biaya/tier akses tools & akun latihan (Meta demo/sandbox, Google Ads test account, HubSpot free sandbox, Canva Pro)
+      detail_level: brief
+    - name: lab_activities
+      description: Aktivitas praktikum hands-on 1-2 pertemuan (setup kampanye dummy, Google Ads simulator, audit SEO situs nyata, analitik GA4 demo)
+      detail_level: moderate
+
+  Sumber & Referensi:
+    - name: textbooks
+      description: Buku teks/buku ajar relevan untuk modul ini (judul + pengarang + edisi + tahun + ISBN)
+      detail_level: moderate
+    - name: diklat_training_sources
+      description: Modul diklat/sertifikasi resmi yang memetakan ke modul ini (mis. Google Skillshop Fundamentals of DM, Meta Blueprint 100-101 domain, HubSpot Academy course, Coursera UIUC, BNSP unit kompetensi)
+      detail_level: moderate
+    - name: key_papers
+      description: Paper/buku kunci 2022-2026 sebagai pembaruan kurikulum (judul + tahun + relevansi; mis. studi GEO Princeton/Georgia Tech 2023)
+      detail_level: moderate
+    - name: source_formats
+      description: Format materi sumber yang tersedia untuk modul ini (PDF/ebook, modul pertemuan, video, sandbox/lab, MOOC, webinar, template/playbook, exam prep)
+      detail_level: moderate
+
+  Asesmen:
+    - name: assessment_methods
+      description: Metode asesmen modul (tugas kampanye mini, presentasi, kuis, studi kasus, portofolio, rubrik)
+      detail_level: moderate
+    - name: certification_alignment
+      description: Pemetaan ke sertifikasi eksternal (Google Ads Search/Measurement, Meta Blueprint 100-101, HubSpot Digital Marketing/SEO/AEO, BNSP Digital Marketing, coursera career certificate)
+      detail_level: moderate
+
+  Tren & Era AI:
+    - name: trends_2022_2026
+      description: Tren yang wajib masuk modul (short-form video, social commerce/live commerce, creator economy, cookieless/privacy)
+      detail_level: moderate
+    - name: ai_era_additions
+      description: Analisis penambahan era AI untuk modul ini: generative content, AI search optimization (AEO/GEO/LLMO), AI bidding/advantage+, agentic workflow, synthetic media, personalisasi, labeling & disclosure, AI-native metrics
+      detail_level: detailed
+    - name: ai_disclosure_regulation
+      description: Regulasi terkait AI content di modul ini (EU AI Act transparency & labeling, platform AI-content labels, aturan endorsement disclosure/Kominfo)
+      detail_level: moderate
+    - name: industry_relevance
+      description: Relevansi industri & peran pekerjaan (digital marketing specialist, performance/paid media, SEO/AEO strategist, growth marketer, creator marketing) + sertifikasi penghargaan
+      detail_level: moderate
+    - name: localization_context
+      description: Konteks Indonesia (Shopee/Tokopedia/TikTok Shop, WhatsApp Business, UU PDP No. 27/2022, platform lokal, bahas ID, sertifikasi BNSP/SKKNI)
+      detail_level: moderate
+    - name: ethics_regulation
+      description: Isu etika & regulasi (UU PDP 27/2022, GDPR, dark pattern, scam/hoaks iklan, bot/engagement palsu, AI hallucination, algoritmic bias targeting)
+      detail_level: moderate
+
+  Capstone:
+    - name: case_study_scenarios
+      description: Skenario studi kasus/capstone (brand awareness FMCG UMKM, campaign performance e-commerce, SEO/AEO audit, creator campaign end-to-end)
+      detail_level: moderate
+    - name: deliverable_format
+      description: Format luaran (Rencana kampanye digital terintegrasi, dashboard metrik, laporan A/B test, portofolio presentasi klien)
+      detail_level: brief
+
+uncertain:
+  - biaya_ujian_meta_blueprint_dalam_idr
+  - kode_unit_kompetensi_bnsp_digital_marketing_terbaru
+  - jumlah_minggu_tepat_per_modul (tergantung RPS prodi)
+  - status_api_tiktok_shop_affiliate_untuk_lab_indonesia

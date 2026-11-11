@@ -1,0 +1,69 @@
+topic: Isi Mata Kuliah Digital Marketing — Modul, Sumber Buku Ajar/Diklat, dan Format Materi di Era AI (2022–2026)
+date: 2026-10-29
+locale: id-ID
+
+items:
+  # --- A. Fondasi & Strategi ---
+  - id: fondasi-ruang-lingkup
+    name: Fondasi & Ruang Lingkup Digital Marketing (definisi, POEM, evolusi traditional→digital→Marketing 5.0/6.0, peran AI)
+  - id: strategi-perencanaan
+    name: Strategi & Perencanaan Digital Marketing (SOSTAC, RACE, funnel TOFU/MOFU/BOFU, SWOT digital, budget, OKR/KPI)
+  - id: riset-audience
+    name: Riset Pasar Digital & Audience Insight (persona, JTBD, competitor analysis, social listening dasar, survey digital)
+  - id: branding-storytelling
+    name: Branding, Positioning & Storytelling Digital (brand equity digital, StoryBrand, tone of voice, messaging framework)
+
+  # --- B. Channel & Taktik ---
+  - id: website-seo-aeo
+    name: Website, SEO & AI Discoverability (on-page, technical SEO, schema, E-E-A-T, AEO/GEO/LLMO untuk AI Overviews & ChatGPT)
+  - id: content-marketing
+    name: Content Marketing & Copywriting (content strategy, editorial calendar, repurposing, SEO writing, UGC)
+  - id: social-media-organik
+    name: Social Media Marketing Organik (strategi per platform IG/FB/TikTok/LinkedIn/X/YouTube, community management)
+  - id: paid-social
+    name: Paid Social Advertising (Meta Ads/Advantage+, TikTok Ads, LinkedIn Ads, creative testing, audience, bidding)
+  - id: sem-google-ads
+    name: SEM, Google Ads & AI Bidding (Search, Performance Max, Display, YouTube, keyword research, Quality Score, landing)
+  - id: short-video
+    name: Short-Form Video & Creator Content (hook & retention, Reels/TikTok/Shorts, production lite, editing tools)
+  - id: email-automasi-crm
+    name: Email Marketing, Automation, CRM & Messaging (lifecycle, segmentation, lead nurturing, WhatsApp Business, chatbot)
+  - id: influencer-affiliate
+    name: Influencer, Affiliate & Creator Commerce (tiering influencer, rate card, TikTok Shop Affiliate, disclosure)
+  - id: ecommerce-cro
+    name: E-commerce, Marketplace & Conversion Rate Optimization (Shopee/Tokopedia/TikTok Shop, live commerce, A/B testing, checkout)
+
+  # --- C. Measurement, Martech & Era AI ---
+  - id: analytics-attribution
+    name: Analytics, Attribution & Performance Measurement (GA4, Meta Pixel/CAPI, UTM, attribution model, LTV/CAC, incrementality/brand lift)
+  - id: martech-stack
+    name: MarTech Stack, Data Foundation & Automation (CRM/CDP, tools landscape, data hygiene, API connector)
+  - id: ai-konten-kreatif
+    name: AI untuk Konten & Kreatif (generative content, AI image/video, synthetic media, brand safety, AI content disclosure)
+  - id: ai-optimasi-kampanye
+    name: AI untuk Optimasi Kampanye (Performance Max, Advantage+, predictive bidding, creative automation, AI audience)
+  - id: ai-agent-personalisasi
+    name: AI Agent & Personalisasi (agentic marketing workflow, AI SDR/chatbot, hyper-personalization, predictive scoring)
+  - id: ai-metrics-governance
+    name: Metrik & Governance Era AI (AI search/citation tracking, zero-click, hallucination risk, EU AI Act & labeling, E-E-A-T)
+
+  # --- D. Legal, Etika, Growth & Capstone ---
+  - id: legal-etika-privasi
+    name: Legal, Etika & Privasi (UU PDP No. 27/2022, GDPR, cookie consent/cookieless, endorsement disclosure, perlindungan konsumen)
+  - id: growth-retensi
+    name: Growth, Experimentation & Retention (growth loops, framework A/B testing, churn, loyalty program)
+  - id: capstone
+    name: Studi Kasus & Capstone Project (integrated digital campaign plan, portfolio klien, praktik baik MBKM/magang)
+
+  # --- E. Inventaris Sumber & Format (objek riset tersendiri) ---
+  - id: inventaris-buku-ajar
+    name: Inventaris Buku Ajar Digital Marketing — global (Chaffey 8e/9e, PR Smith 6e, Kotler Marketing 5.0/6.0, Rowles) & Indonesia (buku ajar ISBN, repositori kampus)
+  - id: inventaris-diklat-sertifikasi
+    name: Inventaris Modul Diklat & Sertifikasi (Google Skillshop/Digital Garage, Meta Blueprint, HubSpot Academy, Google Analytics Academy, Coursera/Google Career Certificates, BNSP/BPVP/LSP & Digitalent Komdigi)
+  - id: inventaris-format-materi
+    name: Inventaris Format Materi (PDF/ebook, modul per pertemuan, video course, sandbox/lab & ad simulator, MOOC, webinar, template/playbook, exam prep, AI tutor)
+
+execution:
+  batch_size: 3
+  items_per_agent: 3
+  output_dir: ./results
